@@ -1,100 +1,117 @@
 body{
-	
+	margin:0;
     background-image: url('train.jpg');
   background-size:cover;
   background-repeat: no-repeat;
      font-family:sans-serif;
    }
-    h1 {
-   color: blue;
-   text-align: center;
- }
-   .container
+ a {
+  text-decoration: none;
+}
+
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+  .container1
    {
      width:300px;
-     height:550px;
+     height:560px;
      margin:auto;
      border-radius:25px;
      background-color: rgba(0,0,225,0.5);
      
      
    }
-   .logo
+   
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgb(0, 0, 128);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+ height:90px;
+  width: 90px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+margin-left:-100px;
+}
+
+.header-left {
+  float: left;
+  width: 100px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -110px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 10px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(80, 71, 71, 0.3);
+}
+
+
+ .form
  {
-     width:100px;
-     height:100px;
-     border-radius:50%;
-     position:fixed;
-     top: 19%;
-   left:46.5%;
+     color: white;
+   text-align: center;
  }
+
+ .btn
+ {
+    cursor:pointer;
+     border-radius:25px;
+ }
+
+ .btn2
+ {
+    cursor:pointer;
+     border-radius:25px;
+ }
+ .btn3
+ {
+    cursor:pointer;
+     border-radius:25px;
+ }
+
+.top1
+ {
+   
+     width:15%;
+     height:50px;
+     margin:auto;
+     border-radius:25px;
+     
+ }
+
+
+ h1 {
+   color: blue;
+   text-align: center;
+ }
+
+
  input
  {
      width:180px;height:20px;
      border-radius:25px;
  
- }
-     .top
- {
-     width:100%;
-     height:80px;
-     background-size:cover;
-     background-color:rgb(0, 0, 128);
- }
- .header1{
- position:fixed;
- width:100%;
- height:60px;
- top:30;
- left:1180;
- color:white;
- z-index:7;
- 
- }
- #profilearea1{top:20px;
-  margin-left:1330px;
-  height:20px;
-  font-size:20px;
-  font-family:verdana;
-  }
-  #profilearea2{top:20px;
-  left:1430px;
-  height:20px;
-  font-size:20px;
-  font-family:verdana;
-  }
-  #profilearea3{top:20px;
-  left:1579px;
-  height:20px;
-  font-size:20px;
-  font-family:verdana;
-  }
-  #profilearea4{top:20px;
-  left:1700px;
-  height:20px;
-  font-size:20px;
-  font-family:verdana;
-  }
-  #profilearea{top:0px;
-  left:-800px;
-  height:20px;
-  font-size:20px;
-  font-family:verdana;
-  }
-  #profilearea5{top:20px;
-    left:1080px;
-    height:20px;
-    font-size:20px;
-    font-family:verdana;
-    }
-    #profilearea6{top:20px;
-      left:1170px;
-      height:20px;
-      font-size:20px;
-      font-family:verdana;
-      }
- .form
- {
-     color: white;
-   text-align: center;
  }
